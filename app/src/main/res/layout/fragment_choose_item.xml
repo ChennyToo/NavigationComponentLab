@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/fragment_choose_item"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ChooseItemFragment"
+    android:background="@color/Coffee">
+
+    <!-- TODO: Update blank fragment layout -->
+
+
+    <Button
+        android:id="@+id/itemButton1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/maple_syrup"
+        android:backgroundTint="@color/BlackCoffee"
+        android:textColor="@color/Gold"
+        android:textSize="30sp"
+        android:layout_marginTop="25dp"
+        android:paddingHorizontal="80dp"
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/itemButton2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/milk"
+        android:backgroundTint="@color/ColorA"
+        android:textColor="@color/Gold"
+        android:paddingHorizontal="92dp"
+        android:textSize="30sp"
+        android:layout_marginTop="25dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/itemButton1" />
+
+    <Button
+        android:id="@+id/itemButton3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:paddingHorizontal="82dp"
+        android:backgroundTint="@color/ColorB"
+        android:textColor="@color/Gold"
+        android:text="@string/chips"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.493"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/itemButton2" />
+
+    <Button
+        android:id="@+id/itemButton4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/ramen"
+        android:backgroundTint="@color/ColorC"
+        android:textColor="@color/Gold"
+        android:paddingHorizontal="75dp"
+        android:textSize="30sp"
+        android:layout_marginTop="25dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/itemButton3" />
+
+    <Button
+        android:id="@+id/itemButton5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/apple"
+        android:backgroundTint="@color/ColorD"
+        android:textColor="@color/Gold"
+        android:paddingHorizontal="81dp"
+        android:textSize="30sp"
+        android:layout_marginTop="25dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/itemButton4" />
+
+    <Button
+        android:id="@+id/itemButton6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/bread"
+        android:backgroundTint="@color/ColorE"
+        android:textColor="@color/Gold"
+        android:paddingHorizontal="80dp"
+        android:textSize="30sp"
+        android:layout_marginTop="25dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/itemButton5" />
+
+    <Button
+        android:id="@+id/itemButton7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/yogurt"
+        android:backgroundTint="@color/ColorF"
+        android:textColor="@color/Gold"
+        android:paddingHorizontal="68dp"
+        android:textSize="30sp"
+        android:layout_marginTop="25dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/itemButton6" />
+
+    <Button
+        android:id="@+id/itemButton8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/beef"
+        android:backgroundTint="@color/ColorG"
+        android:textColor="@color/Gold"
+        android:paddingHorizontal="93dp"
+        android:textSize="30sp"
+        android:layout_marginTop="25dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/itemButton7" />
+</androidx.constraintlayout.widget.ConstraintLayout>

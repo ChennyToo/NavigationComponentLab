@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">NavigationComponentLab</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="enter_your_name">Enter your name</string>
+    <string name="welcome_to_walmart">Welcome to Coughy!</string>
+    <string name="start_list">START LIST</string>
+    <string name="add_item">ADD ITEM</string>
+    <string name="item">ITEM</string>
+    <string name="maple_syrup">SYRUP</string>
+    <string name="milk">MILK</string>
+    <string name="chips">CHIPS</string>
+    <string name="ramen">RAMEN</string>
+    <string name="apple">APPLE</string>
+    <string name="bread">BREAD</string>
+    <string name="yogurt">YOGURT</string>
+    <string name="beef">BEEF</string>
+    <string-array name="item_array">
+        <item>Syrup</item>
+        <item>Milk</item>
+        <item>Chips</item>
+        <item>Ramen</item>
+        <item>Apple</item>
+        <item>Bread</item>
+        <item>Yogurt</item>
+        <item>Beef</item>
+    </string-array>
+    <string name="blank"></string>
+</resources>
